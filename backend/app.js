@@ -18,7 +18,7 @@ const app = express();
 
 const corsOptions = {
   credentials: true,
-  origin: ["http://localhost:3000"],
+  origin: ["https://digital-stories-mk.onrender.com"],
 };
 app.use(cors(corsOptions));
 app.use("/storage", express.static("storage"));
